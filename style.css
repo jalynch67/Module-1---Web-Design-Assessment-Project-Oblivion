@@ -149,3 +149,24 @@ footer strong {
 .gameplay-section {
     background-color: var(--rich-mahogany) !important;
 }
+
+.list-group-item {
+    background-color: var(--coffee-bean-2);
+    color: white;
+    border-color: var(--rich-mahogany)
+}
+
+.page-hero {
+    background-color: var(--coffee-bean-2);
+    color: white;
+    padding: 2rem 0;
+    border-bottom: 2px solid var(--spicy-orange);
+}
+
+.page-hero h1 {
+    color: var(--tiger-orange);
+}
+
+.page-hero p {
+    color: rgba(255, 255, 255, 0.85);
+}
