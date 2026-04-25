@@ -224,3 +224,29 @@ footer strong {
     box-shadow: 0 12px 30px rgba(236, 131, 23, 0.3);
     border-color: var(--tiger-orange);
 }
+
+#storyAccordion .accordion-item {
+    background-color: var(--coffee-bean-2);
+    border: 1px solid var(--rich-mahogany);
+    margin-bottom: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#storyAccordion .accordion-button {
+    background-color: var(--coffee-bean-2);
+    color: white;
+    font-weight: 500;
+    box-shadow: none;
+}
+
+#storyAccordion .accordion-button:not(.collapsed) {
+    background-color: var(--rich-mahogany);
+    color: var(--tiger-orange);
+}
+
+#storyAccordion .accordion-body {
+    background-color: var(--coffee-bean-2);
+    color: rgba(255, 255, 255, 0.85);
+    border-top: 1px solid var(--rich-mahogany);
+}
