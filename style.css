@@ -260,3 +260,18 @@ footer strong {
 .modal-header {
     border-bottom: 1px solid var(--rich-mahogany);
 }
+
+.map-card {
+    border: 2px solid var(--spicy-orange);
+    box-shadow: 0 0 20px rgba(236, 131, 23, 0.15);
+}
+
+.feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px) scale(1.04);
+    box-shadow: 0 12px 30px rgba(236, 131, 23, 0.25);
+    border-color: var(--tiger-orange);
+}
