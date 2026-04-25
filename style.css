@@ -76,3 +76,13 @@ footer strong {
     max-height: 200px;
     object-fit: cover;
 }
+
+.playstyle-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.playstyle-card .list-group {
+    margin-top: auto;
+}
