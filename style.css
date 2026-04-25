@@ -13,7 +13,7 @@ html, body {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: var(--coffee-bean);
+    background-color: var(--rich-mahogany);
     color: #fff;
     display: flex;
     flex-direction: column;
