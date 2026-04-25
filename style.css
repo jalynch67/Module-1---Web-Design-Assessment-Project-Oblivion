@@ -203,3 +203,14 @@ footer strong {
 .playstyle-list li:last-child {
     border-bottom: none;
 }
+
+.story-cards .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.story-cards .btn {
+    margin-top: auto;
+    align-self: flex-start;
+}
