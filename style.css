@@ -146,10 +146,6 @@ footer strong {
     border-color: var(--tiger-orange);
 }
 
-.gameplay-section {
-    background-color: var(--rich-mahogany) !important;
-}
-
 .list-group-item {
     background-color: var(--coffee-bean-2);
     color: white;
