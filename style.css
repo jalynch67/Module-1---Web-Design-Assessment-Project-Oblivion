@@ -170,3 +170,13 @@ footer strong {
 .page-hero p {
     color: rgba(255, 255, 255, 0.85);
 }
+
+.content-section {
+    background-color: var(--coffee-bean);
+    color: white;
+    padding: 4rem 0;
+}
+
+.content-section h2 {
+    color: var(--tiger-orange);
+}
