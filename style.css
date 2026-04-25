@@ -176,3 +176,24 @@ footer strong {
 .content-section h2 {
     color: var(--tiger-orange);
 }
+
+.card-section {
+    background-color: var(--rich-mahogany);
+    padding: 4rem 0;
+}
+
+.theme-card {
+    background-color: var(--coffee-bean-2) !important;
+    color: white !important;
+    border: 1px solid var(--rich-mahogany) !important;
+}
+
+.theme-card .card-title {
+    color: var(--spicy-orange);
+}
+
+.theme-card .card-text {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+
