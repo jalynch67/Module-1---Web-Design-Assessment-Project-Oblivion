@@ -204,13 +204,13 @@ footer strong {
     border-bottom: none;
 }
 
-.story-cards .card-body {
+.card-body {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-.story-cards .btn {
+.btn-card-bottom-left {
     margin-top: auto;
     align-self: flex-start;
 }
