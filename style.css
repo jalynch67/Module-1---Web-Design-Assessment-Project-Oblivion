@@ -2,7 +2,7 @@
     --coffee-bean: #140300;
     --coffee-bean-2: #1C0401;
     --rich-mahogany: #300602;
-    --spicy-orange: #D24C0F;
+    --spicy-orange: #FF6A1A;;
     --tiger-orange: #EC8317;
 }
 
@@ -45,6 +45,11 @@ footer strong {
     letter-spacing: 1px;
 }
 
+footer a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
 .hero-slide {
     height: 40vh;
     background-size: cover;
@@ -56,7 +61,7 @@ footer strong {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.75);
 }
 
 .carousel-caption {
@@ -120,8 +125,9 @@ footer strong {
 }
 
 .btn-primary {
-    background-color: var(--spicy-orange);
-    border-color: var(--spicy-orange);
+  background-color: #b63e0c;
+  border-color: #b63e0c;
+  color: #fff;
 }
 
 .btn-primary:hover {
@@ -176,7 +182,7 @@ footer strong {
 }
 
 .theme-card .card-text {
-    color: rgba(255, 255, 255, 0.85);
+  color: #e6e6e6;
 }
 
 .playstyle-section {
