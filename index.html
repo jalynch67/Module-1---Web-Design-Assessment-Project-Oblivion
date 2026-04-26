@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,20 +11,21 @@
 </head>
 
 <body>
+
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Main navigation">
       <div class="container">
         <a class="navbar-brand" href="index.html">Project Oblivion</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
           aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon" aria-hidden="true"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="mainNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link active" href="index.html" aria-current="page">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="gameplay.html">Gameplay</a>
@@ -41,16 +42,24 @@
     </nav>
   </header>
 
-  <main>
-    <section id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+  <main id="main-content">
+
+    <section id="heroCarousel" class="carousel slide" data-bs-ride="carousel"
+      aria-label="Homepage featured content carousel" aria-roledescription="carousel">
+
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"
+          aria-label="Slide 1"></button>
+
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
       </div>
 
       <div class="carousel-inner">
+
         <div class="carousel-item active hero-slide hero-slide-1">
           <div class="carousel-caption d-flex flex-column justify-content-center h-100">
             <h1>Welcome to Project Oblivion</h1>
@@ -89,69 +98,80 @@
             </p>
           </div>
         </div>
+
       </div>
 
-      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-        <span class="visually-hidden">Previous</span>
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev"
+        aria-label="Previous slide">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       </button>
 
-      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-        <span class="visually-hidden">Next</span>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next"
+        aria-label="Next slide">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
       </button>
+
     </section>
 
     <section class="py-5">
       <div class="container">
         <div class="row g-4 justify-content-center">
+
           <div class="col-12 col-md-6 col-xl-4">
             <article class="card h-100 card-hover">
-              <img src="images/gameplay.jpg" class="card-img-top" alt="Gameplay placeholder image" />
+              <img src="images/gameplay.jpg" class="card-img-top"
+                alt="Gameplay image showing Elder Scrolls IV Oblivion combat and exploration" />
               <div class="card-body">
                 <h5 class="card-title">Gameplay</h5>
                 <p class="card-text">
-                  Learn about combat, leveling systems, and exploration
-                  mechanics in Oblivion.
+                  Learn about combat, leveling systems, and exploration mechanics in Oblivion.
                 </p>
-                <a href="gameplay.html" class="btn btn-primary btn-card-bottom-left">Learn More</a>
+                <a href="gameplay.html" class="btn btn-primary btn-card-bottom-left">
+                  Learn More
+                </a>
               </div>
             </article>
           </div>
 
           <div class="col-12 col-md-6 col-xl-4">
             <article class="card h-100 card-hover">
-              <img src="images/story.jpg" class="card-img-top" alt="Story placeholder image" />
+              <img src="images/story.jpg" class="card-img-top"
+                alt="Story image representing Elder Scrolls IV Oblivion lore and world" />
               <div class="card-body">
                 <h5 class="card-title">Story</h5>
                 <p class="card-text">
-                  Dive into the epic narrative and rich lore of the world of
-                  Tamriel.
+                  Dive into the epic narrative and rich lore of the world of Tamriel.
                 </p>
-                <a href="story.html" class="btn btn-primary btn-card-bottom-left">Explore Story</a>
+                <a href="story.html" class="btn btn-primary btn-card-bottom-left">
+                  Explore Story
+                </a>
               </div>
             </article>
           </div>
 
           <div class="col-12 col-md-6 col-xl-4">
             <article class="card h-100 card-hover">
-              <img src="images/world.jpg" class="card-img-top" alt="World and features placeholder image" />
+              <img src="images/world.jpg" class="card-img-top"
+                alt="World image showing open landscape from Elder Scrolls IV Oblivion" />
               <div class="card-body">
                 <h5 class="card-title">World & Features</h5>
                 <p class="card-text">
-                  Discover the open world, factions, and unique features of
-                  Oblivion.
+                  Discover the open world, factions, and unique features of Oblivion.
                 </p>
-                <a href="world&features.html" class="btn btn-primary btn-card-bottom-left">Discover More</a>
+                <a href="world&features.html" class="btn btn-primary btn-card-bottom-left">
+                  Discover More
+                </a>
               </div>
             </article>
           </div>
+
         </div>
       </div>
     </section>
+
   </main>
 
-  <footer class="text-white py-3 mt-auto">
+  <footer class="text-white py-3 mt-auto" role="contentinfo">
     <div class="container">
       <div class="row align-items-center text-center text-md-start">
         <div class="col-md-4 mb-2 mb-md-0">
