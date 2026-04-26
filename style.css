@@ -2,7 +2,8 @@
     --coffee-bean: #140300;
     --coffee-bean-2: #1C0401;
     --rich-mahogany: #300602;
-    --spicy-orange: #FF6A1A;;
+    --spicy-orange: #FF6A1A;
+    ;
     --tiger-orange: #EC8317;
 }
 
@@ -47,8 +48,25 @@ footer strong {
 }
 
 footer a {
-  color: #ffffff;
-  text-decoration: underline;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-link {
+    color: var(--tiger-orange);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.footer-link:hover {
+    color: var(--spicy-orange);
+    text-shadow: 0 0 8px rgba(236, 131, 23, 0.4);
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.7);
+    font-style: italic;
 }
 
 .hero-slide {
@@ -126,9 +144,9 @@ footer a {
 }
 
 .btn-primary {
-  background-color: #b63e0c;
-  border-color: #b63e0c;
-  color: #fff;
+    background-color: #b63e0c;
+    border-color: #b63e0c;
+    color: #fff;
 }
 
 .btn-primary:hover {
@@ -183,7 +201,7 @@ footer a {
 }
 
 .theme-card .card-text {
-  color: #e6e6e6;
+    color: #e6e6e6;
 }
 
 .playstyle-section {
@@ -309,10 +327,16 @@ footer a {
     padding-bottom: 3.0rem;
 }
 
-.accordion-button:focus {
-    outline-offset: 4px !important;
-    background: #0d6efd !important;
-    color: black !important;
+#storyAccordion .accordion-button:hover {
+    background-color: var(--rich-mahogany);
+    color: var(--tiger-orange);
+}
+
+#storyAccordion .accordion-button:focus {
+    background-color: var(--coffee-bean-2);
+    color: var(--tiger-orange);
+    box-shadow: 0 0 0 0.25rem rgba(236, 131, 23, 0.35);
+    outline: none;
 }
 
 .custom-table {
